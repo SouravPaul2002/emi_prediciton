@@ -51,6 +51,7 @@ The frontend is built using Streamlit, and the whole workflow is fully automated
 ### 🏗 5. Deployment Ready
 
     Easily deployable on Streamlit Cloud.
+    Live at : https://emiprediciton.streamlit.app
 
 ## 📁 Project Structure
 
