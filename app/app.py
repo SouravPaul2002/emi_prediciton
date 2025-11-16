@@ -6,8 +6,8 @@ import joblib
 st.set_page_config(page_title="💸 EMI Predictor", page_icon="💰", layout="wide")
 
 # LOAD MODELS
-clf, clf_features = joblib.load("best_classifier_model.pkl")
-reg, reg_features = joblib.load("best_regression_model.pkl")
+clf, clf_features = joblib.load("../models/best_classifier_model.pkl")
+reg, reg_features = joblib.load("../models/best_regression_model.pkl")
 
 st.title("💰 EMI Eligibility & EMI Amount Prediction")
 st.write("Enter your financial details to check EMI eligibility.")
