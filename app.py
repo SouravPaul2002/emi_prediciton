@@ -12,7 +12,7 @@ reg, reg_features = joblib.load("models/best_regression_model.pkl")
 st.title("💰 EMI Eligibility & EMI Amount Prediction")
 st.write("Enter your financial details to check EMI eligibility.")
 
-# USER INPUT UI
+# USER INPUT ui
 col1, col2 = st.columns(2)
 
 with col1:
